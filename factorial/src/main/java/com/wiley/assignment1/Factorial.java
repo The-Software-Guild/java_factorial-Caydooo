@@ -37,7 +37,7 @@ public class Factorial {
 		Scanner sc = new Scanner(System.in);
 		 
 		while(true){
-			if(sc.hasNextInt(){
+			if(sc.hasNextInt()){
 				int valid = sc.nextInt();
 				if(valid >= 1 && valid <= 10){
 					return valid;
