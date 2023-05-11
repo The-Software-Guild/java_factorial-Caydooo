@@ -36,18 +36,17 @@ public class Factorial {
 		//YOUR CODE STARTS HERE
 		Scanner sc = new Scanner(System.in);
 		 
-		while(true){
-			if(sc.hasNextInt()){
-				int valid = sc.nextInt();
-				if(valid >= 1 && valid <= 10){
-					return valid;
-				} else {
-					break;	
-				}
+		if(sc.hasNextInt()){
+			int valid = sc.nextInt();
+			if(valid >= 1 && valid <= 10){
+				return valid;
 			} else {
-				break;
+				break;	
 			}
+		} else {
+			break;
 		}
+
 		this.printStream.print("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
 		return -1;
 		 
