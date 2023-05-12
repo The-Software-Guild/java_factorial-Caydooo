@@ -34,6 +34,7 @@ public class Factorial {
 		*/
 
 		//YOUR CODE STARTS HERE
+		//Final commit//
 		if(scanner.hasNextInt()){
 			num = scanner.nextInt();
 			if(num >= 1 && num <= 10){
